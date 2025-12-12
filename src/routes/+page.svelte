@@ -14,71 +14,72 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-female-doctor-in-white-coat-consulting-w-1765531945253-0.webp",
+    "/generated/image-male-doctor-examining-patients-blood-pre-1765531948558-1.webp",
+    "/generated/image-clean-modern-medical-clinic-waiting-room-1765531950711-2.webp",
+    "/generated/image-doctor-reviewing-medical-charts-with-mid-1765531952859-3.webp",
+    "/generated/image-medical-professional-conducting-health-s-1765531955029-4.webp",
+    "/generated/image-friendly-doctor-with-stethoscope-smiling-1765531957214-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Medycyna Rodzinna",
+      desc: "Kompleksowa opieka zdrowotna dla całej rodziny. Doświadczeni specjaliści zapewniają profesjonalną diagnostykę i leczenie.",
+      image: "/generated/image-doctor-listening-to-patients-heart-with--1765531963705-8.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Medycyna Pracy",
+      desc: "Badania profilaktyczne pracowników. Współpracujemy z wiodącymi ubezpieczycielami zdrowotnymi. Badania tego samego dnia.",
+      image: "/generated/image-occupational-health-doctor-conducting-wo-1765531965837-9.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Opieka Profilaktyczna",
+      desc: "Programy profilaktyczne i specjalistyczne uprawnienia do badań pracowników narażonych na promieniowanie jonizujące.",
+      image: "/generated/image-doctor-reviewing-preventive-health-scree-1765531968037-10.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Rejestracja pacjenta",
+      desc: "Zarejestruj się w naszej przychodni osobiście lub telefonicznie. Przyjmujemy pacjentów NFZ oraz prywatnie.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Umów wizytę",
+      desc: "Wybierz dogodny termin wizyty. Medycyna pracy dostępna codziennie po godzinie 12:00.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Konsultacja lekarska",
+      desc: "Spotkanie z doświadczonym specjalistą medycyny rodzinnej lub medycyny pracy. Dokładne badanie i diagnostyka.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Badania i dokumentacja",
+      desc: "W razie potrzeby zlecamy dodatkowe badania. Wystawiamy orzeczenia lekarskie i zaświadczenia.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Opieka długoterminowa",
+      desc: "Kontynuuj opiekę zdrowotną w naszej przychodni. Regularny monitoring stanu zdrowia i profilaktyka.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "Jakie są godziny przyjęć w przychodni?",
+    "Czy przyjmujecie pacjentów NFZ?",
+    "Jakie ubezpieczenia prywatne są akceptowane?",
+    "Czy badania medycyny pracy można wykonać tego samego dnia?",
+    "Jakie specjalistyczne uprawnienia posiada przychodnia?",
+    "Czy dermatolog nadal przyjmuje w Piszu?"
   ];
 </script>
 
@@ -88,14 +89,14 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Kompleksowa opieka<br />zdrowotna w Piszu
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Medycyna rodzinna i medycyna pracy. Doświadczeni specjaliści, programy profilaktyczne i współpraca z wiodącymi ubezpieczycielami zdrowotnymi.
     </p>
-    <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
-    </button>
+    <a href="#kontakt" class="inline-block bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
+      Umów wizytę
+    </a>
   </section>
 
   <!-- Hero Images Scroll -->
@@ -109,62 +110,39 @@
     </div>
   </div>
 
-  <!-- App Feature Section -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
-    <div class="bg-white rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 shadow-sm">
-      <!-- Phone Mockup -->
-      <div class="w-full md:w-1/2 flex justify-center">
-        <div class="relative w-[280px] h-[580px] bg-black rounded-[40px] border-[8px] border-black shadow-2xl overflow-hidden">
-          <div class="absolute top-0 left-0 right-0 h-6 bg-black z-20 flex justify-center">
-            <div class="w-20 h-4 bg-black rounded-b-xl"></div>
-          </div>
-          <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
-            <!-- Mock UI -->
-            <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
-            </div>
-            <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
-            </div>
-            <div class="space-y-3">
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
-              </div>
-            </div>
-          </div>
+  <!-- Doctors Section -->
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="lekarze">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Nasi lekarze</h2>
+      <p class="text-gray-600 font-light max-w-2xl mx-auto">Doświadczeni specjaliści z podwójnymi specjalizacjami w medycynie rodzinnej i medycynie pracy.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Doctor 1: Ewa Chodnicka -->
+      <div class="bg-white rounded-[32px] overflow-hidden shadow-sm">
+        <div class="aspect-[3/4] overflow-hidden">
+          <img src="/generated/image-professional-female-doctor-in-her-40s-wi-1765531959369-6.webp" alt="Ewa Chodnicka" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-medium mb-2">Ewa Chodnicka</h3>
+          <p class="text-gray-600 mb-4">Specjalista Medycyny Rodzinnej i Medycyny Pracy</p>
+          <p class="text-sm text-gray-500 font-light leading-relaxed">
+            Właścicielka przychodni z wieloletnim doświadczeniem w kompleksowej opiece zdrowotnej nad pacjentami i pracownikami.
+          </p>
         </div>
       </div>
-      
-      <!-- Content -->
-      <div class="w-full md:w-1/2 space-y-8">
-        <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
-        </h2>
-        <div class="flex items-center justify-between pt-4">
-          <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
-            {@html PlayCircle}
-            Watch video
-          </button>
-          <div class="flex gap-2">
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronLeft}
-            </button>
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronRight}
-            </button>
-          </div>
+
+      <!-- Doctor 2: Paweł Zdziechowski -->
+      <div class="bg-white rounded-[32px] overflow-hidden shadow-sm">
+        <div class="aspect-[3/4] overflow-hidden">
+          <img src="/generated/image-professional-male-doctor-in-his-40s-with-1765531961564-7.webp" alt="Paweł Zdziechowski" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-medium mb-2">Paweł Zdziechowski</h3>
+          <p class="text-gray-600 mb-4">Specjalista Chorób Wewnętrznych i Medycyny Pracy</p>
+          <p class="text-sm text-gray-500 font-light leading-relaxed">
+            Były właściciel NZPOZ Rodzinna Przychodnia Zdrowia, specjalista w zintegrowanej opiece nad pacjentem.
+          </p>
         </div>
       </div>
     </div>
@@ -174,10 +152,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Twoje zdrowie w dobrych rękach
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        Zapewniamy kompleksową opiekę zdrowotną dla mieszkańców Pisza. Doświadczeni specjaliści, nowoczesny sprzęt i indywidualne podejście do każdego pacjenta. Współpracujemy z NFZ oraz wiodącymi prywatnymi ubezpieczycielami zdrowotnymi.
       </p>
     </div>
   </section>
@@ -201,13 +179,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Centrum Opieki Medycznej to przychodnia, której mogę zaufać. Lekarze są kompetentni, zawsze mają czas na wysłuchanie pacjenta. Czuję się tu bezpiecznie i wiem, że moje zdrowie jest w dobrych rękach."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-satisfied-elderly-patient-smiling-after--1765531970214-11.webp" alt="Pacjent" class="w-16 h-16 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Maria K.</div>
+        <div class="text-gray-500 text-xs">Pacjentka przychodni</div>
       </div>
     </div>
   </section>
@@ -216,16 +194,16 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">Badania tego samego dnia</h3>
+        <p class="text-gray-500 text-sm font-light">Medycyna pracy dostępna codziennie po godzinie 12:00. Szybko i profesjonalnie.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">5 ubezpieczycieli prywatnych</h3>
+        <p class="text-gray-500 text-sm font-light">Współpracujemy z Luxmed, Medicover, Enelmed, PZU Zdrowie i Świat Zdrowia.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Specjalistyczne uprawnienia</h3>
+        <p class="text-gray-500 text-sm font-light">Badania pracowników narażonych na promieniowanie jonizujące, żeglugi śródlądowej i kierowców zawodowych.</p>
       </div>
     </div>
   </section>
@@ -233,8 +211,8 @@
   <!-- How it works -->
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="mb-16 max-w-md">
-      <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <h2 class="text-4xl font-medium mb-6">Jak to działa</h2>
+      <p class="text-gray-600 font-light">Proces rejestracji i opieki zdrowotnej w naszej przychodni jest prosty i przejrzysty. Od pierwszej wizyty po długoterminową opiekę - jesteśmy z Tobą na każdym etapie.</p>
     </div>
 
     <div class="space-y-6">
@@ -314,107 +292,134 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Insurance Partnerships Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
-        </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
-              {/each}
-           </svg>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Szeroka współpraca</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs mb-8">Współpracujemy z NFZ i wiodącymi ubezpieczycielami</h2>
+          <div class="space-y-3 text-sm text-gray-300">
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>NFZ - Narodowy Fundusz Zdrowia</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>Luxmed</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>Medicover</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>Enelmed</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>PZU Zdrowie</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-1.5 h-1.5 rounded-full bg-primary-400"></div>
+              <span>Świat Zdrowia</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Specialized Certifications Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
-        </div>
-        <!-- Blurred Text Visual -->
-        <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
-           <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
-           </div>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Specjalistyczne uprawnienia</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs mb-8">Unikalne certyfikacje w medycynie pracy</h2>
+          <div class="space-y-4 text-sm">
+            <div>
+              <div class="font-medium text-white mb-1">Promieniowanie jonizujące</div>
+              <div class="text-gray-400 text-xs">Badania pracowników narażonych - dentyści, personel szpitalny</div>
+            </div>
+            <div>
+              <div class="font-medium text-white mb-1">Żegluga śródlądowa</div>
+              <div class="text-gray-400 text-xs">Wydawanie zaświadczeń dla pracowników żeglugi śródlądowej</div>
+            </div>
+            <div>
+              <div class="font-medium text-white mb-1">Kierowcy zawodowi</div>
+              <div class="text-gray-400 text-xs">Orzeczenia zgodnie z Ustawą o Transporcie Drogowym</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <!-- Services Section -->
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="uslugi">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Nasze usługi</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Kompleksowa opieka zdrowotna dla rodzin i firm. Przyjmujemy pacjentów NFZ oraz prywatnie.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Family Medicine -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
-        <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
         </div>
+        <h3 class="text-2xl font-medium mb-1">Medycyna Rodzinna</h3>
+        <p class="text-sm text-gray-500 mb-6">Kompleksowa opieka dla całej rodziny</p>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Konsultacje lekarskie w ramach NFZ
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Diagnostyka i leczenie chorób przewlekłych
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Programy profilaktyczne i szczepienia
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Specjaliści: Ewa Chodnicka, Paweł Zdziechowski
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <a href="#kontakt" class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors text-center">Umów wizytę</a>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Occupational Medicine -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
-        <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+        <div class="absolute top-0 right-0 bg-primary-50 px-4 py-1 rounded-bl-xl text-xs font-medium text-primary-800">Dla firm</div>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary-600"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
+        <h3 class="text-2xl font-medium mb-1">Medycyna Pracy</h3>
+        <p class="text-sm text-gray-500 mb-6">Badania profilaktyczne pracowników</p>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Badania tego samego dnia (po godz. 12:00)
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Współpraca z 5 prywatnymi ubezpieczycielami
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Specjalistyczne uprawnienia (promieniowanie, żegluga, kierowcy)
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Orzeczenia i zaświadczenia lekarskie
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <a href="#kontakt" class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors text-center">Zapytaj o ofertę</a>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
   <section class="py-20 px-6 max-w-3xl mx-auto" id="faq">
-    <h2 class="text-3xl font-medium text-center mb-12">Your questions answered.</h2>
+    <h2 class="text-3xl font-medium text-center mb-12">Najczęściej zadawane pytania</h2>
     <div class="space-y-4">
       {#each faqs as question}
         <div class="border-b border-gray-200 py-4 flex justify-between items-center cursor-pointer group hover:bg-gray-50/50 transition-colors px-2">
@@ -424,45 +429,61 @@
       {/each}
     </div>
     <div class="mt-12 text-center">
-      <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
-        View all Frequently Asked Questions
-      </button>
+      <a href="#kontakt" class="inline-block border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
+        Skontaktuj się z nami
+      </a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-16 px-6 border-t border-gray-200 bg-[#F9F8F6]">
+  <footer class="py-16 px-6 border-t border-gray-200 bg-[#F9F8F6]" id="kontakt">
     <div class="max-w-7xl mx-auto">
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
-        <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+      <div class="grid md:grid-cols-3 gap-12 mb-12">
+        <!-- Logo and Description -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <svg width="40" height="25" viewBox="0 0 102 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.464844 36.6203C20.766 36.6203 37.2233 20.2248 37.2233 0H64.7063C64.7063 20.2248 81.1637 36.6203 101.465 36.6203V64C80.9762 64 62.7279 54.4446 50.9648 39.563C39.2018 54.4446 20.9534 64 0.464844 64V36.6203Z" fill="black"/>
+            </svg>
+            <span class="font-semibold text-base text-[#1A1A1A] leading-tight">Centrum Opieki<br/>Medycznej</span>
+          </div>
+          <p class="text-sm text-gray-600 font-light">Kompleksowa opieka zdrowotna dla rodzin i firm w Piszu.</p>
         </div>
-        
-        <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
-          <a href="#" class="hover:text-black">Blog</a>
-          <a href="#" class="hover:text-black">Terms & Conditions</a>
-          <a href="#" class="hover:text-black">Privacy Policy</a>
-        </nav>
 
-        <div class="flex gap-4 text-gray-800">
-          <a href="#" class="hover:text-black">{@html XIcon}</a>
-          <a href="#" class="hover:text-black">{@html Instagram}</a>
-          <a href="#" class="hover:text-black">{@html LinkedIn}</a>
+        <!-- Contact Info -->
+        <div>
+          <h3 class="font-medium mb-4 text-sm">Kontakt</h3>
+          <div class="space-y-2 text-sm text-gray-600 font-light">
+            <p>Pisz, Polska</p>
+            <p>Tel: <a href="tel:+48" class="hover:text-black">+48 XXX XXX XXX</a></p>
+            <p>Email: <a href="mailto:kontakt@com-pisz.pl" class="hover:text-black">kontakt@com-pisz.pl</a></p>
+          </div>
+          <div class="mt-4 text-xs text-gray-500">
+            <p class="font-medium mb-1">Godziny przyjęć:</p>
+            <p>Medycyna pracy: codziennie po 12:00</p>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="font-medium mb-4 text-sm">Szybkie linki</h3>
+          <nav class="flex flex-col gap-2 text-sm font-light text-gray-600">
+            <a href="#uslugi" class="hover:text-black">Usługi</a>
+            <a href="#lekarze" class="hover:text-black">Nasi lekarze</a>
+            <a href="#faq" class="hover:text-black">FAQ</a>
+            <a href="#kontakt" class="hover:text-black">Kontakt</a>
+          </nav>
         </div>
       </div>
 
-      <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+      <div class="border-t border-gray-200 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+          <p class="text-xs text-gray-400">© 2024 Centrum Opieki Medycznej Ewa Chodnicka. Wszelkie prawa zastrzeżone.</p>
+          <div class="flex gap-6 text-xs text-gray-400">
+            <a href="#" class="hover:text-black">Polityka prywatności</a>
+            <a href="#" class="hover:text-black">Regulamin</a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
